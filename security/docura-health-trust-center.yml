@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.docurahealth.com/
+url: https://trust.docurahealth.com/
+status: 200
+# The trust center at trust.docurahealth.com is a JavaScript-rendered portal
+# (client-side, no server-side certification text), so an automated body scrape
+# returns no keywords. HIPAA compliance is, however, published explicitly on the
+# provider's own marketing site (verbatim quotes captured below).
+certifications:
+- HIPAA
+evidence:
+- source: https://trust.docurahealth.com/
+  kind: trust-center
+  note: Trust center portal reachable (HTTP 200); client-side rendered.
+- source: https://www.docurahealth.com/
+  kind: published-claim
+  quote: "HIPAA Compliant — Your data is safe, secure ... enterprise-grade security with end-to-end encryption. Patient data protected, audit trails maintained."
+- source: https://www.docurahealth.com/
+  kind: published-claim
+  quote: "Yes. Docura is fully HIPAA compliant with enterprise-grade security."

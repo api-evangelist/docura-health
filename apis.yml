@@ -1,7 +1,31 @@
 aid: docura-health
 name: Docura Health
-description: Docura Health is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Docura Health builds purpose-built software for physicians who prepare
+  medical-legal reports — independent medical examinations (IME), qualified
+  medical examiner (QME), agreed medical examiner (AME),
+  permanent-and-stationary, and supplemental evaluations. The platform organizes
+  complete case files (medical records, audio, and video), generates intelligent
+  chronological summaries that link back to source documents, guides AMA
+  Guides-compliant impairment ratings (5th and 6th Edition), and produces
+  structured reports from customizable templates matched to each evaluator's
+  practice style. Docura is HIPAA compliant with enterprise-grade end-to-end
+  encryption and audit trails, and is backed by Y Combinator. This profile was
+  seeded from a Y Combinator portfolio lead and enriched from Docura Health's
+  public website and trust center; no public developer API or documentation was
+  found at enrichment time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.docurahealth.com/images/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/docura-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,51 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Health
+- Medical-Legal
+- Medical Records
+- Impairment Rating
+- IME
+- QME
+- Workers Compensation
+- HIPAA
+- Clinical Documentation
 apis: []
+common:
+- type: Website
+  url: https://www.docurahealth.com/
+- type: About
+  url: https://www.docurahealth.com/about-us.html
+- type: Login
+  url: https://app.docurahealth.com/auth/login
+- type: TermsOfService
+  url: https://www.docurahealth.com/terms-of-service.html
+- type: PrivacyPolicy
+  url: https://www.docurahealth.com/privacy-policy.html
+- type: TrustCenter
+  url: https://trust.docurahealth.com/
+- type: Compliance
+  url: https://trust.docurahealth.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/docura-health/
+- type: X
+  url: https://x.com/docurahealth
+- type: DomainSecurity
+  url: security/docura-health-domain-security.yml
+- type: TrustCenter
+  name: Docura Health Trust Center artifact
+  url: security/docura-health-trust-center.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
